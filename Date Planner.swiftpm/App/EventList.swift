@@ -25,7 +25,7 @@ struct EventList: View {
                                 Button(role: .destructive) {
                                     eventData.delete(event)
                                 } label: {
-                                    Label("Delete", systemImage: "trash")
+                                    Label("", systemImage: "trash")
                                 }
                             }
                         }
