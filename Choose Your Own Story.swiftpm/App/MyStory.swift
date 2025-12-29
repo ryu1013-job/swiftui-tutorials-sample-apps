@@ -16,7 +16,7 @@ let story = Story(pages: [
         """,
         choices: [
             Choice(text: "Front row!", destination: 1),
-            Choice(text: "Find somewhere in the middle", destination: 1),
+            Choice(text: "Find somewhere in the middle", destination: 20),
             Choice(text: "Back of the room", destination: 2),
         ]
     ),
